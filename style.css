@@ -1,3 +1,68 @@
-table, th, td {
-    border:1px solid black;
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #73777B;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+table{
+    border:2px solid white;
+    border-radius: 25px; 
+    padding: 50px;
   }
+th, td {
+    border:2px solid white;
+    padding: 12px;
+}
+
+#top-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+   
+}
+
+input{
+    border: none;
+    padding: 10px;
+    margin:20px 0px 0px 0px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+#save-info-btn{
+    padding: 10px;
+    background-color: #EC994B;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+    font-size: 15px;
+
+}
+
+#save-info-btn:hover{
+    background-color: #c87c34;
+    cursor: pointer;
+}
+
+button {
+    background-color: #EC994B;
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 75px;
+    font-size: 20px;
+    margin: 0px 0px 0px 15px;
+    
+}
+
+button:hover{
+    background-color: #c87c34;
+    cursor: pointer;
+}
