@@ -1,0 +1,95 @@
+body {
+    background-color: #f5f5f5;
+    margin: 0px;
+    font-family: github;
+}
+
+#submit-btn{
+    background-color: #298e34;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    border: 0px;
+    color: white;
+    margin-left: 15px;
+    font-family: github;
+}
+
+#submit-btn:hover{
+    cursor: pointer;
+    background-color: #36a543;
+}
+
+#search-bar{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-family: github;
+}
+h1{
+    margin: 0px;
+    padding: 25px;
+    font-family: github;
+    
+}
+.nav {
+    color: white;
+    background-color: #333333;
+    font-family: github;
+    width: 100%;
+    text-align: center;
+}
+
+#form-cont{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-family: github;
+}
+#result-cont{
+    display: flex;
+    flex-direction: column;
+    font-family: github;
+    align-items: center;
+}
+#result-cont>span>h1{
+    padding: 5px;
+    font-family: github;
+}
+#result-cont>span>h3{
+    padding: 0px;
+    margin: 10px;
+}
+#avatar-cont{
+    width: 65%;
+    margin: 20px;
+    font-family: github;
+}
+#avatar-cont>img{
+    width: 100%;
+    border-radius: 100%;
+    outline: 2px solid black;
+    outline-offset: -5px;
+}
+
+
+@font-face {
+    font-family: github;
+    src: url(font/DejaVuSansMono.ttf);
+  }
+
+  @media screen and (min-width: 768px) {
+    #avatar-cont{
+        width: 300px;
+        margin: 20px;
+        font-family: github;
+    }
+    #avatar-cont>img{
+        width: 100%;
+        border-radius: 100%;
+        outline: 2px solid black;
+        outline-offset: -5px;
+    }
+    
+}
