@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+    font-family: main;
+    padding: 50px;
+}
+h1{
+    color: #1652f0;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+#wrapper>span{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(222, 222, 222);
+    width: 100%;
+    max-width: 500px;
+    font-family: main;
+    
+}
+
+@font-face {
+    font-family: main;
+    src: url(fonts/main.otf);
+  }
