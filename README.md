@@ -8,6 +8,13 @@ Enter a Github profile username to get details about them.
 ### Age guess (agify.io) :gear:
 Uses the user's name to guess their age.
 
+### Lyric Search
+Type the name of a song and get results containing basic song info and a link to the lyrics
+
+### Crypto Price
+Returns the current value of 4 crypto currency coins
+
+
 ## Vanilla Javascript
 
 ### Coin Flip :gear:
