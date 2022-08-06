@@ -26,31 +26,32 @@ let scoreCount = document.getElementById('score')
 
 // 1
 ans13.addEventListener('click', function(){
-    ans11.innerHTML = 'Correct!'
+    ans11.innerHTML = '<p>Correct!</p>'
+    ans11.style = 'background-color:rgb(62, 213, 133); color:white;'
     ans12.style.display = 'none'
     ans13.style.display = 'none'
 
-    console.log('Correct!')
+
     scoreCount.innerHTML = `5/${startScore}`
 })
 
 ans12.addEventListener('click', function(){
-    ans11.innerHTML = 'Wrong!'
+    ans11.innerHTML = '<p>Wrong!</p>'
+    ans11.style = 'background-color: rgb(240, 124, 70); color:white;'
     ans12.style.display = 'none'
     ans13.style.display = 'none'
     startScore -= 1
-    console.log('WRONG!')
-    console.log(`5/${startScore}`)
+
     scoreCount.innerHTML = `5/${startScore}`
 })
 
 ans11.addEventListener('click', function(){
-    ans11.innerHTML = 'Wrong!'
+    ans11.innerHTML = '<p>Wrong!</p>'
+    ans11.style = 'background-color:rgb(240, 124, 70); color:white;'
     ans12.style.display = 'none'
     ans13.style.display = 'none'
     startScore -= 1
-    console.log('WRONG!')
-    console.log(`5/${startScore}`)
+
     scoreCount.innerHTML = `5/${startScore}`
 })
 
@@ -58,31 +59,32 @@ ans11.addEventListener('click', function(){
 
 // 2
 ans22.addEventListener('click', function(){
-    ans21.innerHTML = 'Correct!'
+    ans21.innerHTML = '<p>Correct!</p>'
+    ans21.style = 'background-color:rgb(62, 213, 133); color:white;'
     ans22.style.display = 'none'
     ans23.style.display = 'none'
 
-    console.log('Correct!')
+
     scoreCount.innerHTML = `5/${startScore}`
 })
 
 ans23.addEventListener('click', function(){
-    ans21.innerHTML = 'Wrong!'
+    ans21.innerHTML = '<p>Wrong!</p>'
+    ans21.style = 'background-color:rgb(240, 124, 70); color:white;'
     ans22.style.display = 'none'
     ans23.style.display = 'none'
     startScore -= 1
-    console.log('WRONG!')
-    console.log(`5/${startScore}`)
+
     scoreCount.innerHTML = `5/${startScore}`
 })
 
 ans21.addEventListener('click', function(){
-    ans21.innerHTML = 'Wrong!'
+    ans21.innerHTML = '<p>Wrong!</p>'
+    ans21.style = 'background-color:rgb(240, 124, 70); color:white;'
     ans22.style.display = 'none'
     ans23.style.display = 'none'
     startScore -= 1
-    console.log('WRONG!')
-    console.log(`5/${startScore}`)
+
     scoreCount.innerHTML = `5/${startScore}`
 })
 
@@ -90,30 +92,31 @@ ans21.addEventListener('click', function(){
 
 // 3
 ans33.addEventListener('click', function(){
-    ans31.innerHTML = 'Correct!'
+    ans31.innerHTML = '<p>Correct!</p>'
+    ans31.style = 'background-color:rgb(62, 213, 133); color:white;'
     ans32.style.display = 'none'
     ans33.style.display = 'none'
     scoreCount.innerHTML = `5/${startScore}`
-    console.log('Correct!')
+
 })
 
 ans32.addEventListener('click', function(){
-    ans31.innerHTML = 'Wrong!'
+    ans31.innerHTML = '<p>Wrong!</p>'
+    ans31.style = 'background-color:rgb(240, 124, 70); color:white;'
     ans32.style.display = 'none'
     ans33.style.display = 'none'
     startScore -= 1
-    console.log('WRONG!')
-    console.log(`5/${startScore}`)
+
     scoreCount.innerHTML = `5/${startScore}`
 })
 
 ans31.addEventListener('click', function(){
-    ans31.innerHTML = 'Wrong!'
+    ans31.innerHTML = '<p>Wrong!</p>'
+    ans31.style = 'background-color:rgb(240, 124, 70); color:white;'
     ans32.style.display = 'none'
     ans33.style.display = 'none'
     startScore -= 1
-    console.log('WRONG!')
-    console.log(`5/${startScore}`)
+
     scoreCount.innerHTML = `5/${startScore}`
 })
 
@@ -122,30 +125,31 @@ ans31.addEventListener('click', function(){
 
 // 4
 ans41.addEventListener('click', function(){
-    ans41.innerHTML = 'Correct!'
+    ans41.innerHTML = '<p>Correct!</p>'
+    ans41.style = 'background-color:rgb(62, 213, 133); color:white;'
     ans42.style.display = 'none'
     ans43.style.display = 'none'
     scoreCount.innerHTML = `5/${startScore}`
-    console.log('Correct!')
+
 })
 
 ans42.addEventListener('click', function(){
-    ans41.innerHTML = 'Wrong!'
+    ans41.innerHTML = '<p>Wrong!</p>'
+    ans41.style = 'background-color:rgb(240, 124, 70); color:white;'
     ans42.style.display = 'none'
     ans43.style.display = 'none'
     startScore -= 1
-    console.log('WRONG!')
-    console.log(`5/${startScore}`)
+
     scoreCount.innerHTML = `5/${startScore}`
 })
 
 ans43.addEventListener('click', function(){
-    ans41.innerHTML = 'Wrong!'
+    ans41.innerHTML = '<p>Wrong!</p>'
+    ans41.style = 'background-color:rgb(240, 124, 70); color:white;'
     ans42.style.display = 'none'
     ans43.style.display = 'none'
     startScore -= 1
-    console.log('WRONG!')
-    console.log(`5/${startScore}`)
+
     scoreCount.innerHTML = `5/${startScore}`
 })
 
@@ -153,30 +157,31 @@ ans43.addEventListener('click', function(){
 
 // 5
 ans53.addEventListener('click', function(){
-    ans51.innerHTML = 'Correct!'
+    ans51.innerHTML = '<p>Correct!</p>'
+    ans51.style = 'background-color:rgb(62, 213, 133); color:white;'
     ans52.style.display = 'none'
     ans53.style.display = 'none'
     scoreCount.innerHTML = `5/${startScore}`
-    console.log('Correct!')
+
 })
 
 ans52.addEventListener('click', function(){
-    ans51.innerHTML = 'Wrong!'
+    ans51.innerHTML = '<p>Wrong!</p>'
+    ans51.style = 'background-color:rgb(240, 124, 70); color:white;'
     ans52.style.display = 'none'
     ans53.style.display = 'none'
     startScore -= 1
-    console.log('WRONG!')
-    console.log(`5/${startScore}`)
+
     scoreCount.innerHTML = `5/${startScore}`
 })
 
 ans51.addEventListener('click', function(){
-    ans51.innerHTML = 'Wrong!'
+    ans51.innerHTML = '<p>Wrong!</p>'
+    ans51.style = 'background-color:rgb(240, 124, 70); color:white;'
     ans52.style.display = 'none'
     ans53.style.display = 'none'
     startScore -= 1
-    console.log('WRONG!')
-    console.log(`5/${startScore}`)
+
     scoreCount.innerHTML = `5/${startScore}`
 })
 

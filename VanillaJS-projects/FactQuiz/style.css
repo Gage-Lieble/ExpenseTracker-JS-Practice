@@ -1,0 +1,59 @@
+#quiz-wrapper>div>div{
+    background-color: rgb(222, 222, 222);
+    padding: 5px;
+    margin: 10px;
+    font-size: 25px;
+    
+    
+}
+#quiz-wrapper>div>div:hover{
+    cursor: help;
+}
+
+
+#q-1, #q-2, #q-3, #q-4, #q-5{
+    margin-bottom: 100px;
+}
+#quiz-wrapper>div>div>p{
+    padding: 15px;
+    margin: 0px;
+}
+
+#quiz-wrapper>div>h2{
+    padding-bottom: 25px;
+}
+
+#quiz-wrapper>div>h3{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#score{
+    background-color: rgb(240, 124, 70);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 1000;
+    position: fixed;
+    z-index: 100;
+    
+    
+}
+
+#score-wrap{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 35px;
+}
+h1{
+    padding: 25px;
+    text-align: center;
+}
