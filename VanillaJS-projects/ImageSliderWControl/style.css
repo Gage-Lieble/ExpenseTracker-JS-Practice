@@ -21,3 +21,16 @@ body{
     width: 400px;
     
 }
+
+#pills{
+    display: flex;
+    align-items: center;
+
+}
+
+.pill{
+    margin-left: 10px;
+    background-color: lightgrey;
+    width: 20px;
+    height: 10px;
+}
