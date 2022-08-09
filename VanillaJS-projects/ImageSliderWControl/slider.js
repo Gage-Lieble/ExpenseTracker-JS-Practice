@@ -45,17 +45,17 @@ right.addEventListener('click', function(){
 
 
 
-function changeImg(){
-    slide.src = images[start]
+// function changeImg(){
+//     slide.src = images[start]
 
-    if (start < images.length - 1){
-        start ++ 
-    }
-    else {
-        start = 0
-    }
-    setTimeout('changeImg()', time)
-}
+//     if (start < images.length - 1){
+//         start ++ 
+//     }
+//     else {
+//         start = 0
+//     }
+//     setTimeout('changeImg()', time)
+// }
 
-changeImg()
+// changeImg()
     
