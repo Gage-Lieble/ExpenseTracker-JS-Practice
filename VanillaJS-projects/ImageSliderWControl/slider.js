@@ -17,7 +17,7 @@ let slide = document.getElementById('slide')
 
 
 left.addEventListener('click', function(){
-    start -= 2
+    start -= 1
     
     if (start < 0){
         start = 3
