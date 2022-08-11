@@ -15,7 +15,6 @@ images[3] = 'imgs/4.jpg'
 
 let slide = document.getElementById('slide')
 
-
 left.addEventListener('click', function(){
     start -= 1
     
@@ -26,11 +25,11 @@ left.addEventListener('click', function(){
     else {
         
         slide.src = images[start]
-    }
+    };
 
     
     
-})
+});
 
 right.addEventListener('click', function(){
 
