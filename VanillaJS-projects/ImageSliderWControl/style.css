@@ -1,10 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #left, #right{
     padding: 10px;
     background-color: grey;
     width: 25px;
-    margin: 10px;
+    margin-top: 10px;
     color: white;
     text-align: center;
     user-select: none;
     cursor: pointer;
+}
+
+#btns{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+
+#pills{
+    display: flex;
+    align-items: center;
+
+}
+
+.pill{
+    margin-left: 10px;
+    background-color: lightgrey;
+    width: 20px;
+    height: 10px;
 }
