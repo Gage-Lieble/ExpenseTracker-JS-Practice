@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: github;
+}
+
+#form-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    font-family: github;
+}
+
+#user-qr-text{
+padding: 10px;
+border: 2px solid black;
+border-radius: 50px;
+width: 250px;
+font-family: github;
+}
+
+#subBtn{
+padding: 13px;
+border-radius: 100px;
+border: 0px;
+background-color: green;
+color: white;
+margin: 10px;
+width: 100px;
+font-family: github;
+}
+
+#imgHolder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: github;
+}
+
+#header{
+    text-align: center;
+}
+@font-face {
+    font-family: github;
+    src: url(font/DejaVuSansMono.ttf);
+  }
