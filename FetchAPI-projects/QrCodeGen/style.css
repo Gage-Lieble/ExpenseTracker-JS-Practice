@@ -13,22 +13,27 @@ body{
 }
 
 #user-qr-text{
-padding: 10px;
+padding: 15px;
 border: 2px solid black;
 border-radius: 50px;
 width: 250px;
 font-family: github;
+font-size: 10px;
 }
 
 #subBtn{
 padding: 13px;
 border-radius: 100px;
 border: 0px;
-background-color: green;
+background-color: rgb(36, 177, 78);
 color: white;
 margin: 10px;
 width: 100px;
 font-family: github;
+}
+#subBtn:hover{
+    cursor: pointer;
+    background-color: rgb(32, 151, 67);
 }
 
 #imgHolder{
@@ -43,6 +48,8 @@ font-family: github;
 #header{
     text-align: center;
 }
+
+
 @font-face {
     font-family: github;
     src: url(font/DejaVuSansMono.ttf);
