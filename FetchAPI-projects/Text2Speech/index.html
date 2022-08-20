@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text2Speech</title>
+    <script defer src="https://code.responsivevoice.org/responsivevoice.js?key=lIPrXLPj"></script>
+    <script defer src="text.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h3>What would you like me to say?</h3>
+    <input type="text" id="userinp" placeholder="Phrase">
+    <select id="voice-options" aria-placeholder="Which voice?">
+        <option value="none" selected disabled hidden>Select a Voice</option>
+        <option value="UK English Male">Man</option>
+        <option value="UK English Female">Woman</option>
+    </select>
+    <input type="submit" id="sub-btn">
+</div>
+</body>
+</html>
