@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image saver</title>
+    <script src="saver.js" defer></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <h2>Cat Image Generator in VUE.JS</h2>
+    <div id="app">
+        <button v-on:click="nextImg" id="imgbtn">New Images</button>
+    <div id="img-cont">
+        <div id="img-wrap" v-for="img in data[0]"><img v-bind:src="img.url" alt=""><button v-on:click="addFav(img.url)">Add Fav</button></div>
+    </div>
+    <h2>Favorites</h2>
+    <div id="img-cont">
+        <div id="img-wrap" v-for="fav in favs"><img v-bind:src="fav" alt=""><button id="remove" v-on:click="removeFav(fav)">Remove Fav</button></div>
+    </div>
+    </div>
+
+    
+</body>
+</html>
