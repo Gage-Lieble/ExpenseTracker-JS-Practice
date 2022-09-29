@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke-Search</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="poke.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div id="app">
+        <h1>Pokemon Search</h1>
+        <input type="text" v-model="search" v-on:keyup.enter="searchPoke">
+        <div id="card">
+            <h2>{{search}}</h2>
+        <div id="contents">
+            <span id="img-cont">
+                <img v-bind:src="results['sprite']" alt="">
+            </span>
+                <h3>Height:</h3>{{results['height']}} ft
+                <h3>Base-XP:</h3> {{results['xp']}}
+            </div>
+        </div>
+        
+    
+    </div>
+</body>
+</html>

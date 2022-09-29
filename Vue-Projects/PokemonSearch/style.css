@@ -1,0 +1,50 @@
+@import url('http://fonts.cdnfonts.com/css/pokemon-solid');
+
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Cabin', sans-serif;
+    
+    
+}
+h1{
+    
+    font-family: 'Pokemon Solid', sans-serif;
+}
+input{
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 100px;
+    width: 200px;
+}
+#card{
+    
+    background-color: rgb(181, 212, 239);
+    border: 5px solid rgb(236, 199, 34);
+    width: 450px;
+    height: 650px;
+    color: white;
+}
+#contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#img-cont>img{
+    object-fit: cover;
+    
+    width: 400px;
+    margin-left: -40px;
+}
+#img-cont{
+    width: 300px;
+    border: 5px solid white;
+min-height: 400px;
+    background-color: rgb(166, 189, 209);
+}
+
+h2{
+    color: white;
+    margin-left: 70px;
+}
