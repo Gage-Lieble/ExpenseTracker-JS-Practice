@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <script src="quotes.js" defer></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <input type="text" v-on:keyup.enter="searchQ" v-model="userInp">
+        <select v-model="filter">
+            <option value=""></option>
+            <option value="keyword">Keyword</option>
+            <option value="author">Author</option>
+            <option value="tag">Tag</option>
+        </select>
+        <button v-on:click="searchQ">Search</button>
+        <li v-for="quote in quotes">
+            {{quote.body}} -<b>{{quote.author}}</b>
+        </li>
+
+        <button v-on:click="pageChange(0)">Back a Page</button><button v-on:click="pageChange(1)">Next Page</button>
+        {{page}}
+    </div>
+</body>
+</html>
